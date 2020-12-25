@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+}
+.key-result {
+  font-size: 5rem;
+  color: blueviolet;
+  text-align: center;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/app.css">
+  <link rel="stylesheet" href="./css/keyset-form.css">
+  <link rel="stylesheet" href="./css/keyboard.css">
+  <link rel="stylesheet" href="./css/keyset-table.css">
+  <script src="./js/app.js" defer type="module"></script>
+</head>
+<body>
+  <main>
+    <div class="key-result">
+      <span style="opacity: 0.5;">-</span>
+    </div>
+    <ul class="keyboard"></ul>
+    <div class="keyset-form">
+      <input type="text" id="category" placeholder="Category">
+      <input type="text" id="name" placeholder="Name">
+      <input type="text" id="keys" placeholder="Keys">
+      <button id="btn_save">저장하기</button>
+    </div>
+    <table class="keyset-table">
+      <thead>
+        <th>Category</th>
+        <th>Name</th>
+        <th>Keys</th>
+        <th></th>
+      </thead>
+      <tbody id="keyset"></tbody>
+    </table>
+  </main>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.keyset-form {
+  margin: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.keyset-form > * {
+  width: 22%;
+}
+.keyset-form > input,
+.keyset-form > button {
+  font-size: 1rem;
+  padding: 0.3em;
+}
+.keyset-form > input {
+  border: 1px solid #ccc;
+}
+.keyset-form > button {
+  border: none;
+  background: rgb(122, 85, 37);
+  color: #fff;
+}
+.keyset-form > input::placeholder {
+  color: #ccc;
+}
+.keyset-form > input:focus {
+  border: 1px solid rgb(122, 85, 37);
+}

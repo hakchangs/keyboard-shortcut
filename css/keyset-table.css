@@ -1,0 +1,18 @@
+.keyset-table {
+  width: 100%;
+  margin: 1rem;
+}
+table.keyset-table th {
+  text-align: left;
+  padding: 0.5em 0;
+  border-bottom: 1px solid #aaa;
+  color: #aaa;
+}
+table.keyset-table td {
+  text-align: left;
+  padding: 0.5em 0;
+}
+.key-remove {
+  border: none;
+  background: transparent;
+}
